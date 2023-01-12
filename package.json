@@ -6,7 +6,8 @@
     "dev": "nuxi dev",
     "build": "nuxi build",
     "generate": "nuxi generate",
-    "preview": "nuxi preview"
+    "preview": "nuxi preview",
+    "deploy": "git add . && git commit -m update && git push origin master"
   },
   "devDependencies": {
     "nuxt": "^3.0.0",
